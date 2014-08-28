@@ -1,0 +1,302 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;
+  font-size: 100% }
+
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 175% Arial, Helvetica, sans-serif;
+  color: #000;
+  letter-spacing: -1px;
+  margin: 0 0 10px 0;}
+
+h2
+{ font: normal 165% Arial, Helvetica, sans-serif;}
+
+h3
+{ font: normal 130% Arial, Helvetica, sans-serif;
+}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 150% Arial, Helvetica, sans-serif;
+  color: #FFF;
+  line-height: 1.5em;}
+
+h5, h6
+{ font: normal 95% Arial, Helvetica, sans-serif;
+  color: #888;
+  padding-bottom: 15px;}
+
+a, a:hover
+{ background: transparent;
+  outline: none;
+  text-decoration: none;}
+
+a:hover
+{ text-decoration: underline;}
+
+ul
+{ margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+
+#main, #header, #banner, #menubar, #site_content, #footer, #content_grey
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#main
+{ background: transparent;}
+  
+#header
+{
+  height: 170px;
+ }
+
+#banner
+{ width: 920px;
+  position: relative;
+  text-align: center; 
+  height: 50px;
+  padding: 15px 0 0 0;
+  background: transparent;}
+
+#menubar
+{ width: 920px;
+  height: 50px;
+  text-align: center; 
+  margin: 0 auto;
+  background: transparent url(../images/menubar.jpg) no-repeat;} 
+  
+#welcome
+{ width: 880px;
+  float: left;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 20px;
+  background: transparent;} 
+
+#welcome H1
+{ font: normal 190% Arial, Helvetica, sans-serif;
+  color:brown;}  
+  
+#welcome_slogan
+{ width: 880px;
+  float: left;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 20px;
+  background: transparent;}   
+   
+#welcome H1
+{ font: normal 250% Arial, Helvetica, sans-serif;
+  letter-spacing: -3px;
+  color: Black;}
+
+#welcome_slogan H1
+{ font: italic 150% Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+  color: Black;}  
+
+// navigasi 
+  
+ul#menu
+{ margin:0;}
+
+ul#menu li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;}
+
+ul#menu li a
+{ float: left;
+  height: 25px;
+  margin: 10px 0 0 20px;
+  padding: 5px 20px 0 20px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+  background: transparent;} 
+  
+ul#menu li.current a
+{ background: #225B82;
+  border: 1px solid #1F4763;}
+//membuat menu dropdown 
+
+#nav {
+	margin :0;
+	padding:0;
+	background:#663300;
+	float:left;
+	text-align:left;
+}
+#nav li{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	width:100%;
+}
+#nav a{
+
+
+display:block;
+color:#fff;
+text-decoration:none;
+padding:0 15px;
+line-height:2;
+border-bottom:1px solid #fff;
+
+}
+#nav a:hover{
+ 
+background:#330000;
+
+}
+
+#topwrapper{
+	background:#330000;
+	border-bottom:1px solid #fff;
+	width:100%;
+
+}
+#topmenu{
+	margin-left:350px;
+	padding:0;
+	height:30px;
+	width:50%;
+}
+#topmenu ul{
+	margin :0;
+	padding:0;
+	list-style:none;
+	
+}
+#topmenu ul li{
+
+	position:relative;
+	float:left;
+	width:100px;
+}
+#topmenu li ul {
+
+	position:relative;
+	display:none;
+
+}
+#topmenu ul li a {
+
+	display:block;
+	text-dicoration:none;
+	line-heigth:20px;
+	color:#fff;
+	padding:5px;	
+
+}
+#topmenu ul li a:hover{
+
+	background:#663300;
+
+
+}
+#topmenu li:hover ul{
+
+display:block;
+background:#330000;
+
+}
+
+#clear {
+
+	clear:both;
+}
+#wrapper{
+	width:80%;
+	margin-left: 150px;
+
+
+
+}
+#header{
+
+	heigth:100px;
+	width:100%;
+	background:#663300;
+	border-bottom:1px solid #fff;
+	
+
+
+}
+
+
+
+body{
+
+	text-align:center;
+	color:white;
+	font-family:"Arial";
+  background: #CBCBCB url(../images/background.jpg) repeat-x;
+	
+
+}
+
+#content{
+
+	background:#cd853f;
+	height:50%;
+	
+}
+#middle{
+	background:#334150;
+
+
+}
+#sidebar {
+
+	width:19%;
+	float:left;
+	border-rigth:1px solid #fff;
+	
+}
+
+
+#content{
+
+	background:#cd853f;
+	height:50%;
+
+}
+
+#footer
+{ 
+  height: 50px;
+  padding-top: 20px;
+  text-align: center; 
+  background: #663300;
+  color: #1D1D1D;
+
+
+
+}
+##########################################################################
